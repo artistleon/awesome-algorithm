@@ -1,4 +1,4 @@
-# [remove-outermost-parentheses](https://leetcode-cn.com/problems/remove-outermost-parentheses/) 
+# [remove-outermost-parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) 
 
 ## #1
 
