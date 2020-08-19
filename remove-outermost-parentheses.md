@@ -17,6 +17,30 @@ class Solution {
 
 ```
 
+# #2
+
+```java
+class Solution {
+     public String removeOuterParentheses(String S) {
+        Stack<Character> stack = new Stack<>();
+        int flag = 0;
+        StringBuilder stringBuilder = new StringBuilder();
+        for (int i = 0;i < S.length(); ++i) {
+            if ( S.charAt(i) == '(') {
+                stack.push('(');
+            } else {
+                stack.pop();
+                if (stack.isEmpty()) {
+                    stringBuilder.append(S, flag + 1, i);
+                    flag = i + 1;
+                }
+            }
+        }
+        return stringBuilder.toString();
+    }
+}
+```
+
 
 
 
