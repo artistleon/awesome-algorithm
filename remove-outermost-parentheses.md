@@ -1,6 +1,6 @@
 # [remove-outermost-parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) 
 
-## #1
+# #1
 
 ```java
 class Solution {
